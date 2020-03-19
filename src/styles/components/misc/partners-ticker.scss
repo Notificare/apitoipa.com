@@ -1,0 +1,42 @@
+.partners-ticker{
+  padding: 50px 0 0 0;
+  position: relative;
+
+  .title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .subtitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .ticker-area{
+    padding: 50px 0 50px 0;
+    text-align: center;
+    img{
+      @include filter(grayscale(100%));
+      &:hover{
+        @include filter(grayscale(0%));
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .partners-ticker{
+    padding: 25px 0 0 0;
+
+    .title{
+      font-size: 22px;
+    }
+
+    .subtitle{
+      font-size: 16px;
+    }
+
+  }
+}

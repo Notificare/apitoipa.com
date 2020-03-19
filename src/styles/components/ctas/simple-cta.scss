@@ -1,0 +1,73 @@
+.simple-cta {
+
+  .content{
+    padding: 40px 0 80px 0;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+    .title{
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .text{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .button{
+      padding: 16px 30px 16px 30px !important;
+    }
+
+    &.primary{
+      background: theme-color("primary");
+      .title, .text{
+        color: color-yiq(theme-color("primary"));
+      }
+      .button{
+        color: theme-color("primary");
+      }
+    }
+
+    &.secondary{
+      background: theme-color("secondary");
+      .title, .text{
+        color: color-yiq(theme-color("secondary"));
+      }
+      .button{
+        color: theme-color("secondary");
+      }
+    }
+  }
+
+}
+
+@include media-breakpoint-down(lg) {
+
+}
+
+@include media-breakpoint-down(md) {
+  .simple-cta {
+    .content {
+      margin: 0 -15px 0 -15px;
+
+      .title{
+        font-size: 22px;
+      }
+
+      .text{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+
+      .button{
+        padding: 8px 25px 8px 25px !important;
+      }
+
+
+    }
+  }
+}

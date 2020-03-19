@@ -1,0 +1,175 @@
+footer{
+  color: color-yiq(theme-color("dark"));
+  font-size: 14px;
+  .shortcuts{
+    padding: 50px 0 50px 0;
+    border-bottom: 1px solid #787B7B;
+    .footer-title{
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .footer-link{
+      padding: 3px 0 3px 0;
+      font-weight: 600;
+      display: block;
+      font-size: 16px;
+      color: #787B7B;
+      text-decoration: none;
+      &:hover{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .seals{
+    float: right;
+    width: 180px;
+    .seal{
+      width: 180px;
+      margin-bottom: 10px;
+    }
+  }
+  .social-buttons{
+    width: 180px;
+    float: right;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    .button{
+      float: left;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include border-radius(100%);
+      margin: 0 5px 0 5px;
+      text-decoration: none;
+      background: theme-color("light");
+      color: theme-color("dark");
+      transition: 0.3s;
+      &.linkedin{
+        &:hover{
+          color: theme-color("light");
+          background: #007bb5;
+        }
+      }
+      &.facebook{
+        &:hover{
+          color: theme-color("light");
+          background: #1877f2;
+        }
+      }
+      &.twitter{
+        &:hover{
+          color: theme-color("light");
+          background: #1da1f2;
+        }
+      }
+      &.youtube{
+        &:hover{
+          color: theme-color("light");
+          background: #ff0000;
+        }
+      }
+    }
+  }
+  .platform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    padding: 30px 0 10px 0;
+    .title{
+      margin-right: 10px;
+      font-weight: 700;
+    }
+    .status-icon{
+      @include border-radius(100%);
+      width: 20px;
+      height: 20px;
+      &.none{
+        background: theme-color("success-dark");
+      }
+      &.major{
+        background: theme-color("danger-dark");
+      }
+      &.minor{
+        background: theme-color("warning");
+      }
+      &.maintenance{
+        background: theme-color("light");
+      }
+    }
+    .status{
+      margin-left: 10px;
+      font-weight: 400;
+    }
+  }
+  .copyright{
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #787B7B;
+
+    .copyright-link{
+      display: inline-block;
+      font-size: 14px;
+      color: #787B7B;
+      text-decoration: none;
+      margin: 0 10px 0 10px;
+      &:hover{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+@include media-breakpoint-down(md) {
+  footer{
+
+    .shortcuts{
+      padding: 0 10px 20px 10px;
+
+      .footer-title{
+        display: none;
+      }
+      .footer-link{
+        display: none;
+      }
+
+    }
+    .seals{
+      float: unset;
+      padding: 40px 0 0 0;
+      margin: auto;
+    }
+
+    .social-buttons{
+      float: unset;
+      padding: 10px 0 0 0 !important;
+      height: 55px;
+      margin: auto;
+      .button{
+        margin: 0 5px 0 5px;
+      }
+    }
+    .platform{
+      padding: 20px 0 20px 0;
+      .title{
+        font-size: 16px;
+      }
+      .status-icon{
+
+      }
+      .status{
+        font-size: 16px;
+      }
+    }
+    .copyright{
+      padding: 20px 0 20px 0;
+    }
+  }
+}

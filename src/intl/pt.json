@@ -1,0 +1,145 @@
+{
+  "title": "Notificare - Demo Website",
+  "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick.",
+  "author": "@notificare",
+  "pages": {
+    "home": {
+      "title": "Welcome",
+      "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick."
+    },
+    "inbox": {
+      "title": "Inbox",
+      "description": "A message inbox for your apps. Increase engagement rates with campaigns that are always visible."
+    },
+    "store": {
+      "title": "Store Locator",
+      "description": "Manage your venues in one single place. Transform your user's location into relevant information."
+    },
+    "events": {
+      "title": "Actionable Analytics",
+      "description": "Collect any data point that makes sense for your business. Put it to work by creating event-driven campaigns."
+    },
+    "assets": {
+      "title": "Personalized Content",
+      "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick."
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Give users the options they need to trust your brand."
+    },
+    "404": {
+      "title": "These aren't the droids you're looking for",
+      "description": "Probably the page you are looking for does not exist or was recently moved. If you think something is wrong please contact us.",
+      "image": "hero-example-image.jpg",
+      "button": {
+        "label": "Back to Safety",
+        "url": "/"
+      },
+      "cta": {
+        "title": "Want a free demo instead?",
+        "text": "Start testing all our features today",
+        "button": {
+          "label": "Get a free demo",
+          "url": "/demo"
+        }
+      }
+    }
+  },
+  "components": {
+    "mailingList": {
+      "title": "Join our newsletter",
+      "email": {
+        "label": "E-mail address",
+        "placeholder": "E-mail address",
+        "button": "Get Updates",
+        "error": "Please insert a valid email",
+        "serverError": "We could not subscribe you at this moment. Please try again later.",
+        "success": "Great! Thanks for joining Notificare, please check your inbox."
+      }
+    },
+    "footer": {
+      "siteTitle": "Notificare"
+    }
+  },
+  "shared": {
+    "readMore": "Read more",
+    "planPeriodicity": "/month",
+    "popular": "Popular",
+    "usersLimit": "Up to {users} users"
+  },
+  "notificare": {
+    "onBoarding": {
+      "text": "Would you like to receive push notifications from our website?",
+      "cancelText": "No",
+      "acceptText": "Yes"
+    },
+    "eventForm": {
+      "title": "Register Custom Events",
+      "text": "Use this form to register custom events and test actionable analytics for this demo website.",
+      "event": {
+        "label": "Event Name",
+        "error": "Please insert an event name"
+      },
+      "eventData": {
+        "label": "Event Data",
+        "placeholder": "Use a JSON object to pass custom data with your event"
+      },
+      "button": "Register Event",
+      "alerts": {
+        "success": "Event created successfully",
+        "error": "We could not create an event at this time",
+        "titles": {
+          "success": "Success",
+          "error": "Error"
+        }
+      }
+    },
+    "assetForm": {
+      "title": "Search Asset Groups",
+      "text": "Use this form to search asset groups created for this demo website.",
+      "asset": {
+        "placeholder": "Type an asset group name",
+        "error": "Please insert an asset group name",
+        "button": "Search"
+      }
+    },
+    "settingsForm": {
+      "notifications": {
+        "header": "Notifications",
+        "notifications": {
+          "title": "Notifications",
+          "text": "Receive messages with our news, events or any other campaign we might find relevant for you"
+        },
+        "location": {
+          "title": "Location Services",
+          "text": "Allow us to collect your location in order to send notifications whenever you are around"
+        },
+        "dnd": {
+          "title": "Do Not Disturb",
+          "text": "Configure a period of time where notification will not generate browser alerts"
+        },
+        "dndStart": {
+          "title": "From"
+        },
+        "dndEnd": {
+          "title": "Until"
+        }
+      },
+      "tags": {
+        "header": "Tags",
+        "press": {
+          "title": "Press",
+          "text": "Subscribe me to the group of devices that would like to receive all the news via push notifications"
+        },
+        "newsletter": {
+          "title": "Newsletter",
+          "text": "Subscribe me to the group of devices that would like to receive your newsletter"
+        },
+        "events": {
+          "title": "Events",
+          "text": "Subscribe me to the group of devices that would like to receive all the events via push notifications"
+        }
+      }
+    }
+  }
+}

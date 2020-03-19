@@ -1,0 +1,126 @@
+.standalone-testimonial{
+  position: relative;
+  padding: 50px 0 50px 0;
+  z-index: 1;
+
+  .title{
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    padding: 0 0 40px 0;
+  }
+
+  .image{
+    position: relative;
+
+    .quotes{
+      position: absolute;
+      top: 40px;
+      left: -65px;
+      width: 160px;
+      height: 160px;
+      z-index: 1;
+    }
+
+  }
+
+  .testimonial{
+    padding-left: 40px;
+
+    .logo{
+      max-width: 140px;
+    }
+
+    .divider{
+      margin-top: 35px;
+      margin-bottom: 10px;
+      width: 40px;
+      height: 3px;
+      background: theme-color("secondary");
+      @include border-radius(2px);
+    }
+
+    .summary{
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    .text{
+      margin: 28px 0 38px 0;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+
+    .author{
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .role{
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+}
+
+@include media-breakpoint-down(md) {
+  .standalone-testimonial{
+    padding: 40px 0 25px 0;
+
+    .title{
+      max-width: 200px;
+      font-size: 22px;
+      padding: 0 0 20px 0;
+    }
+
+    .image{
+      margin-left: -15px;
+      width: 90%;
+      .quotes{
+        right: -40px;
+        left: unset;
+        width: 80px;
+        height: 80px;
+        img{
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+
+    .testimonial{
+      padding: 30px 10px 10px 10px;
+
+      .logo{
+        max-width: 140px;
+      }
+
+      .divider{
+        margin-top: 35px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 3px;
+        background: theme-color("secondary");
+        @include border-radius(2px);
+      }
+
+      .summary{
+        font-size: 22px;
+      }
+
+      .text{
+        margin: 28px 0 38px 0;
+        font-size: 16px;
+      }
+
+      .author{
+        font-size: 16px;
+      }
+      .role{
+        font-size: 16px;
+      }
+    }
+  }
+}

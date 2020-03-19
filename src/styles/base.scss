@@ -1,0 +1,148 @@
+body{
+  background: $body-bg !important;
+  font-family: $font-family !important;
+  font-size: $default-font-size !important;
+  line-height: $default-line-height !important;
+  color: $body-color !important;
+  font-weight: 300 !important;
+  text-rendering: optimizeSpeed;
+  font-smooth: always;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-display: swap;
+}
+
+%heading {
+  font-family: $font-family !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+%heading1 {
+  @extend %heading;
+  font-size: 47px !important;
+}
+
+%heading2 {
+  @extend %heading;
+  font-size: 32px !important;
+}
+
+%heading3{
+  @extend %heading;
+  font-size: 24px;
+}
+
+%heading4 {
+  @extend %heading;
+  font-size: 22px;
+}
+
+%heading5 {
+  @extend %heading;
+  font-size: 20px;
+}
+
+
+h1{@extend %heading1;}
+
+h2{@extend %heading2;}
+
+h3{@extend %heading3;}
+
+h4{@extend %heading4;}
+
+h5{@extend %heading5;}
+
+a{
+  text-decoration: underline;
+  color: theme-color("links");
+  &:hover{
+    text-decoration: none;
+    color: theme-color-level("links", -5);
+  }
+}
+
+.text-underline{
+  border-bottom-style: solid !important;
+  border-bottom-width: 2px !important;
+}
+
+@include media-breakpoint-down(md) {
+  body{
+    font-size: $default-sm-font-size !important;
+  }
+
+  %heading-sm {
+    font-family: $font-family !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+  }
+
+  h1{
+    @extend %heading-sm;
+    font-size: 26px !important;
+  }
+
+  h2{
+    @extend %heading-sm;
+    font-size: 22px !important;
+  }
+
+  h3{
+    @extend %heading-sm;
+    font-size: 18px !important;
+  }
+
+  h4{
+    @extend %heading-sm;
+    font-size: 16px !important;
+  }
+
+  h5{
+    @extend %heading-sm;
+    font-size: 14px !important;
+  }
+}
+
+
+@include media-breakpoint-between(md, lg) {
+
+  body{
+    font-size: $default-md-font-size !important;
+  }
+
+  %heading-md {
+    font-family: $font-family !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+  }
+
+  h1{
+    @extend %heading-md;
+    font-size: 34px !important;
+  }
+
+  h2{
+    @extend %heading-md;
+    font-size: 28px !important;
+  }
+
+  h3{
+    @extend %heading-md;
+    font-size: 20px !important;
+  }
+
+  h4{
+    @extend %heading-md;
+    font-size: 18px !important;
+  }
+
+  h5{
+    @extend %heading-md;
+    font-size: 16px !important;
+  }
+}

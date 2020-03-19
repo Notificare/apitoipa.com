@@ -1,0 +1,457 @@
+{
+  "en": {
+    "footer": [
+      {
+        "header": "Features",
+        "shortcuts": [
+          {
+            "label": "Messaging",
+            "url": "https://notificare.com/features/messaging",
+            "target": "_blank"
+          },
+          {
+            "label": "Location based Marketing",
+            "url": "https://notificare.com/features/location-based-marketing",
+            "target": "_blank"
+          },
+          {
+            "label": "Actionable Analytics",
+            "url": "https://notificare.com/features/analytics",
+            "target": "_blank"
+          },
+          {
+            "label": "Marketing Automation",
+            "url": "https://notificare.com/features/automation",
+            "target": "_blank"
+          },
+          {
+            "label": "Personalized Content",
+            "url": "https://notificare.com/features/contextual-marketing",
+            "target": "_blank"
+          },
+          {
+            "label": "Mobile Wallet",
+            "url": "https://notificare.com/features/loyalty",
+            "target": "_blank"
+          },
+          {
+            "label": "In-App Monetization",
+            "url": "https://notificare.com/features/in-app-monetization",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "header": "Resources",
+        "shortcuts": [
+          {
+            "label": "Case Studies",
+            "url": "https://notificare.com/case-studies",
+            "target": "_blank"
+          },
+          {
+            "label": "Blog",
+            "url": "https://notificare.com/blog",
+            "target": "_blank"
+          },
+          {
+            "label": "White Papers",
+            "url": "https://notificare.com/white-papers",
+            "target": "_blank"
+          },
+          {
+            "label": "Help Desk",
+            "url": "https://support.notifica.re",
+            "target": "_blank"
+          },
+          {
+            "label": "Documentation",
+            "url": "https://docs.notifica.re",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "header": "Solutions",
+        "shortcuts": [
+          {
+            "label": "Retail",
+            "url": "https://notificare.com/solutions/retail",
+            "target": "_blank"
+          },
+          {
+            "label": "Media & Entertainment",
+            "url": "https://notificare.com/solutions/entertainment",
+            "target": "_blank"
+          },
+          {
+            "label": "Hospitality",
+            "url": "https://notificare.com/solutions/hospitality",
+            "target": "_blank"
+          },
+          {
+            "label": "Mobility",
+            "url": "https://notificare.com/solutions/mobility",
+            "target": "_blank"
+          },
+          {
+            "label": "Sports & Events",
+            "url": "https://notificare.com/solutions/sports-events",
+            "target": "_blank"
+          },
+          {
+            "label": "Agencies",
+            "url": "https://notificare.com/solutions/agencies",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "header": "About Us",
+        "shortcuts": [
+          {
+            "label": "Leadership",
+            "url": "https://notificare.com/leadership",
+            "target": "_blank"
+          },
+          {
+            "label": "Press Releases",
+            "url": "https://notificare.com/press-releases",
+            "target": "_blank"
+          },
+          {
+            "label": "Events",
+            "url": "https://notificare.com/events",
+            "target": "_blank"
+          },
+          {
+            "label": "Partners",
+            "url": "https://notificare.com/partners",
+            "target": "_blank"
+          },
+          {
+            "label": "Contact Us",
+            "url": "https://notificare.com/contact",
+            "target": "_blank"
+          }
+        ]
+      }
+    ],
+    "seals": [
+      {
+        "image": "emerce-ribbon.png",
+        "alt": "Emerce"
+      },
+      {
+        "image": "capterra-ribbon.png",
+        "alt": "Capterra"
+      }
+    ],
+    "copyright": [
+      {
+        "label": "Terms & Conditions",
+        "url": "https://notificare.com/terms"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://notificare.com/privacy"
+      },
+      {
+        "label": "Cookie Policy",
+        "url": "https://notificare.com/cookies"
+      }
+    ]
+  },
+  "nl": {
+    "footer": [
+      {
+        "header": "Features",
+        "shortcuts": [
+          {
+            "label": "Messaging",
+            "url": "/features/messaging"
+          },
+          {
+            "label": "Location based Marketing",
+            "url": "/features/location-based-marketing"
+          },
+          {
+            "label": "Actionable Analytics",
+            "url": "/features/analytics"
+          },
+          {
+            "label": "Marketing Automation",
+            "url": "/features/automation"
+          },
+          {
+            "label": "Personalized Content",
+            "url": "/features/contextual-marketing"
+          },
+          {
+            "label": "Mobile Wallet",
+            "url": "/features/loyalty"
+          },
+          {
+            "label": "In-App Monetization",
+            "url": "/features/in-app-monetization"
+          }
+        ]
+      },
+      {
+        "header": "Resources",
+        "shortcuts": [
+          {
+            "label": "Case Studies",
+            "url": "/case-studies"
+          },
+          {
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "label": "White Papers",
+            "url": "/white-papers"
+          },
+          {
+            "label": "Help Desk",
+            "url": "https://support.notifica.re",
+            "target": "_blank"
+          },
+          {
+            "label": "Documentation",
+            "url": "https://docs.notifica.re",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "header": "Solutions",
+        "shortcuts": [
+          {
+            "label": "Retail",
+            "url": "/solutions/retail"
+          },
+          {
+            "label": "Media & Entertainment",
+            "url": "/solutions/entertainment"
+          },
+          {
+            "label": "Hospitality",
+            "url": "/solutions/hospitality"
+          },
+          {
+            "label": "Mobility",
+            "url": "/solutions/mobility"
+          },
+          {
+            "label": "Sports & Events",
+            "url": "/solutions/sports-events"
+          },
+          {
+            "label": "Agencies",
+            "url": "/solutions/agencies"
+          }
+        ]
+      },
+      {
+        "header": "About Us",
+        "shortcuts": [
+          {
+            "label": "Leadership",
+            "url": "/leadership"
+          },
+          {
+            "label": "Press Releases",
+            "url": "/press-releases"
+          },
+          {
+            "label": "Events",
+            "url": "/events"
+          },
+          {
+            "label": "Partners",
+            "url": "/partners"
+          },
+          {
+            "label": "Contact Us",
+            "url": "/contact"
+          }
+        ]
+      }
+    ],
+    "seals": [
+      {
+        "image": "emerce-ribbon.png",
+        "alt": "Emerce"
+      },
+      {
+        "image": "capterra-ribbon.png",
+        "alt": "Capterra"
+      }
+    ],
+    "copyright": [
+      {
+        "label": "Terms & Conditions",
+        "url": "/terms"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "/privacy"
+      },
+      {
+        "label": "Cookie Policy",
+        "url": "/cookies"
+      },
+      {
+        "label": "Security",
+        "url": "/security"
+      }
+    ]
+  },
+  "pt": {
+    "footer": [
+      {
+        "header": "Features",
+        "shortcuts": [
+          {
+            "label": "Messaging",
+            "url": "/features/messaging"
+          },
+          {
+            "label": "Location based Marketing",
+            "url": "/features/location-based-marketing"
+          },
+          {
+            "label": "Actionable Analytics",
+            "url": "/features/analytics"
+          },
+          {
+            "label": "Marketing Automation",
+            "url": "/features/automation"
+          },
+          {
+            "label": "Personalized Content",
+            "url": "/features/contextual-marketing"
+          },
+          {
+            "label": "Mobile Wallet",
+            "url": "/features/loyalty"
+          },
+          {
+            "label": "In-App Monetization",
+            "url": "/features/in-app-monetization"
+          }
+        ]
+      },
+      {
+        "header": "Resources",
+        "shortcuts": [
+          {
+            "label": "Case Studies",
+            "url": "/case-studies"
+          },
+          {
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "label": "White Papers",
+            "url": "/white-papers"
+          },
+          {
+            "label": "Help Desk",
+            "url": "https://support.notifica.re",
+            "target": "_blank"
+          },
+          {
+            "label": "Documentation",
+            "url": "https://docs.notifica.re",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "header": "Solutions",
+        "shortcuts": [
+          {
+            "label": "Retail",
+            "url": "/solutions/retail"
+          },
+          {
+            "label": "Media & Entertainment",
+            "url": "/solutions/entertainment"
+          },
+          {
+            "label": "Hospitality",
+            "url": "/solutions/hospitality"
+          },
+          {
+            "label": "Mobility",
+            "url": "/solutions/mobility"
+          },
+          {
+            "label": "Sports & Events",
+            "url": "/solutions/sports-events"
+          },
+          {
+            "label": "Agencies",
+            "url": "/solutions/agencies"
+          }
+        ]
+      },
+      {
+        "header": "About Us",
+        "shortcuts": [
+          {
+            "label": "Leadership",
+            "url": "/leadership"
+          },
+          {
+            "label": "Press Releases",
+            "url": "/press-releases"
+          },
+          {
+            "label": "Events",
+            "url": "/events"
+          },
+          {
+            "label": "Partners",
+            "url": "/partners"
+          },
+          {
+            "label": "Contact Us",
+            "url": "/contact"
+          }
+        ]
+      }
+    ],
+    "seals": [
+      {
+        "image": "emerce-ribbon.png",
+        "alt": "Emerce"
+      },
+      {
+        "image": "capterra-ribbon.png",
+        "alt": "Capterra"
+      }
+    ],
+    "copyright": [
+      {
+        "label": "Terms & Conditions",
+        "url": "/terms"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "/privacy"
+      },
+      {
+        "label": "Cookie Policy",
+        "url": "/cookies"
+      },
+      {
+        "label": "Security",
+        "url": "/security"
+      }
+    ]
+  }
+}

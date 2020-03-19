@@ -1,0 +1,117 @@
+.callout-block{
+  position: relative;
+  margin: 100px 0 50px 0;
+
+  .image{
+    position: absolute;
+    top: -50px;
+    bottom: 50px;
+    left: -50px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .callout{
+    padding: 50px 75px 50px 0;
+    .logo{
+      width: 170px;
+      height: 170px;
+      margin: auto;
+      img{
+        filter: grayscale(100%);
+      }
+    }
+
+    .text{
+      margin-top: 35px;
+      font-weight: 300;
+    }
+
+    .author{
+      margin-top: 55px;
+      .name{
+        font-weight: 300;
+      }
+      .role{
+        font-weight: 600;
+      }
+    }
+
+    .button{
+      margin-top: 55px;
+      padding: 19px 25px 19px 25px !important;
+    }
+  }
+
+  &.primary{
+    color: color-yiq(theme-color("primary"));
+    .button{
+      background: theme-color-level("primary", 5);
+      color: color-yiq(theme-color("primary"));
+    }
+    &:before{
+      background: theme-color("primary");
+    }
+  }
+  &.secondary{
+    color: color-yiq(theme-color("secondary"));
+    .button{
+      background: theme-color-level("secondary", 5);
+      color: color-yiq(theme-color("secondary"));
+    }
+    &:before{
+      background: theme-color("secondary");
+    }
+  }
+
+  &:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+
+  .callout-block {
+    margin: 50px 0 25px 0;
+
+    .image {
+      position: relative;
+      top: unset;
+      left: unset;
+      bottom: unset;
+      max-height: 400px;
+    }
+    .callout{
+      padding: 25px;
+      .logo{
+        width: 100px;
+        height: 100px;
+      }
+
+      .text{
+        margin-top: 15px;
+        font-weight: 300;
+      }
+
+      .author{
+        margin-top: 25px;
+      }
+
+      .button{
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+        font-size: 16px !important;
+        padding: 9px 22px 9px 22px !important;
+      }
+    }
+
+    &:before{
+      left: 0;
+    }
+  }
+}

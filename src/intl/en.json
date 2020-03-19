@@ -1,0 +1,57 @@
+{
+  "title": "From API to IPA - powered by Notificare",
+  "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick.",
+  "author": "@notificare",
+  "pages": {
+    "home": {
+      "title": "Welcome",
+      "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick."
+    },
+    "404": {
+      "title": "These aren't the droids you're looking for",
+      "description": "Probably the page you are looking for does not exist or was recently moved. If you think something is wrong please contact us.",
+      "image": "hero-example-image.jpg",
+      "button": {
+        "label": "Back to Safety",
+        "url": "/"
+      },
+      "cta": {
+        "title": "Want a free demo instead?",
+        "text": "Start testing all our features today",
+        "button": {
+          "label": "Get a free demo",
+          "url": "/demo"
+        }
+      }
+    }
+  },
+  "components": {
+    "mailingList": {
+      "title": "Join our newsletter",
+      "email": {
+        "label": "E-mail address",
+        "placeholder": "E-mail address",
+        "button": "Get Updates",
+        "error": "Please insert a valid email",
+        "serverError": "We could not subscribe you at this moment. Please try again later.",
+        "success": "Great! Thanks for joining Notificare, please check your inbox."
+      }
+    },
+    "footer": {
+      "siteTitle": "Notificare"
+    }
+  },
+  "shared": {
+    "readMore": "Read more",
+    "planPeriodicity": "/month",
+    "popular": "Popular",
+    "usersLimit": "Up to {users} users"
+  },
+  "notificare": {
+    "onBoarding": {
+      "text": "Would you like to receive push notifications from our website?",
+      "cancelText": "No",
+      "acceptText": "Yes"
+    }
+  }
+}

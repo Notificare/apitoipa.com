@@ -1,0 +1,35 @@
+$theme-colors: (
+        "primary": #10D1C4,
+        "secondary": #2B42F7,
+        "white": #ffffff,
+        "black": #000000,
+        "success": #27b0a3,
+        "success-dark": #009086,
+        "danger": #e54142,
+        "danger-dark": #cd1011,
+        "warning": #FFB335,
+        "info": #516DFF,
+        "light": #F2F4F6,
+        "dark": #232C2A,
+        "dark-blue": #15207B,
+        "field-bg-color": #F2F4F6,
+        "field-border-color": #F2F4F6,
+        "field-color": #232C2A,
+        "links": #232c2a
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import url("https://use.typekit.net/fjh4cfl.css");
+
+$body-bg: #ffffff;
+$body-color: #232C2A;
+
+$font-family: 'proxima-nova', 'Muli', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+
+
+$default-font-size: 20px;
+$default-md-font-size: 18px;
+$default-sm-font-size: 16px;
+$default-line-height: 1.5;
+
+$default-radius: 4px;

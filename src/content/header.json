@@ -1,0 +1,80 @@
+{
+  "en": {
+    "nav": [
+      {
+        "label": "Inbox",
+        "url": "/inbox",
+        "useBadge": true
+      },
+      {
+        "label": "Store Locator",
+        "url": "/store"
+      },
+      {
+        "label": "Actionable Analytics",
+        "url": "/events"
+      },
+      {
+        "label": "Contextual Content",
+        "url": "/assets"
+      },
+      {
+        "label": "Settings",
+        "url": "/settings"
+      }
+    ],
+    "buttons": []
+  },
+  "nl": {
+    "nav": [
+      {
+        "label": "Inbox",
+        "url": "/inbox",
+        "useBadge": true
+      },
+      {
+        "label": "Store Locator",
+        "url": "/store"
+      },
+      {
+        "label": "Actionable Analytics",
+        "url": "/events"
+      },
+      {
+        "label": "Contextual Content",
+        "url": "/assets"
+      },
+      {
+        "label": "Settings",
+        "url": "/settings"
+      }
+    ],
+    "buttons": []
+  },
+  "pt": {
+    "nav": [
+      {
+        "label": "Inbox",
+        "url": "/inbox",
+        "useBadge": true
+      },
+      {
+        "label": "Store Locator",
+        "url": "/store"
+      },
+      {
+        "label": "Actionable Analytics",
+        "url": "/events"
+      },
+      {
+        "label": "Contextual Content",
+        "url": "/assets"
+      },
+      {
+        "label": "Settings",
+        "url": "/settings"
+      }
+    ],
+    "buttons": []
+  }
+}
