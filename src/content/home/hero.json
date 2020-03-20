@@ -1,25 +1,14 @@
 {
   "en": {
-    "title": "Welcome",
-    "text": "Join us for a workshop. Get insights from our developers on how to implement our APIs or SDKs. We end the session with a drink, cheers!",
+    "text": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!",
     "image": "notificare-bottle.png"
   },
   "nl": {
-    "title": "Engagement Marketing Automation",
-    "text": "Discover the platform that delivers the most engaging messages and interactions. Every superhero needs a sidekick.",
-    "button": {
-      "label": "Learn more",
-      "url": "/features"
-    },
-    "image": "hero-example-image.jpg"
+    "text": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!",
+    "image": "notificare-bottle.png"
   },
   "pt": {
-    "title": "Engagement Marketing Automation",
-    "text": "Discover the platform that delivers the most engaging messages and interactions. Every superhero needs a sidekick.",
-    "button": {
-      "label": "Learn more",
-      "url": "/features"
-    },
-    "image": "hero-example-image.jpg"
+    "text": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!",
+    "image": "notificare-bottle.png"
   }
 }

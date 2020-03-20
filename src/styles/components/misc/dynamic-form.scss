@@ -1,0 +1,33 @@
+.dynamic-form{
+  background: white;
+  padding: 30px;
+  @include box-shadow(0 0 30px 0 rgba(0,0,0,0.1) !important);
+
+  .title{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .dynamic-form{
+    .title{
+      font-size: 32px;
+    }
+
+    .text{
+      font-size: 18px;
+    }
+  }
+}

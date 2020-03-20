@@ -1,0 +1,44 @@
+{
+  "en": {
+    "workshops": [
+      {
+        "title": "iOS SDK Deep Dive",
+        "subtitle": "Coming soon",
+        "description": "Highly technical and in-depth workshop into the inner workings, caveats and useful insights of our iOS SDK."
+      },
+      {
+        "title": "Intro to Location Service APIs",
+        "subtitle": "Coming soon",
+        "description": "Find out how you can use geo-fencing, geo-targeting and BTLE beacons in your mobiles apps."
+      }
+    ]
+  },
+  "nl": {
+    "workshops": [
+      {
+        "title": "iOS SDK Deep Dive",
+        "subtitle": "Coming soon",
+        "description": "Highly technical and in-depth workshop into the inner workings, caveats and useful insights of our iOS SDK."
+      },
+      {
+        "title": "Intro to Location Service APIs",
+        "subtitle": "Coming soon",
+        "description": "Find out how you can use geo-fencing, geo-targeting and BTLE beacons in your mobiles apps."
+      }
+    ]
+  },
+  "pt": {
+    "workshops": [
+      {
+        "title": "iOS SDK Deep Dive",
+        "subtitle": "Coming soon",
+        "description": "Highly technical and in-depth workshop into the inner workings, caveats and useful insights of our iOS SDK."
+      },
+      {
+        "title": "Intro to Location Service APIs",
+        "subtitle": "Coming soon",
+        "description": "Find out how you can use geo-fencing, geo-targeting and BTLE beacons in your mobiles apps."
+      }
+    ]
+  }
+}
