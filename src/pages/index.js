@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/heroes/hero"
 import HeroData from "../content/home/hero.json"
-import Workshops from "../content/home/workshops.json"
+import WorkshopsData from "../content/home/workshops.json"
 import { Col, Container, Row } from "react-bootstrap"
 import DynamicForm from "../components/misc/dynamic-form"
-import SimpleCard from "../components/misc/simple-card"
+import Workshops from "../components/misc/workshops"
 
 const IndexPage = ({ intl }) => (
     <Layout>
@@ -20,19 +20,11 @@ const IndexPage = ({ intl }) => (
           <Row>
             <Col lg={`6`}>
               <div className={`top-overflow-wrapper`}>
-                {Workshops[intl.locale].workshops.map((item, i) => {
-
-                  return (
-                    <Col key={i} lg={12}>
-                      <SimpleCard content={item}/>
-                    </Col>
-                  )
-
-                })}
+                <Workshops content={WorkshopsData[intl.locale]}/>
               </div>
             </Col>
             <Col lg={`6`}>
-              <div className={`top-overflow-wrapper`}>
+              <div className={`top-overflow-wrapper second-col`}>
                 <DynamicForm type={`apiToIPAForm`} />
               </div>
             </Col>

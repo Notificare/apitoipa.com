@@ -19,3 +19,18 @@
   }
 
 }
+
+
+
+@include media-breakpoint-down(md) {
+  .main-page{
+
+    .top-overflow-wrapper{
+      &.second-col{
+        margin: 0 0 50px 0;
+      }
+    }
+
+
+  }
+}

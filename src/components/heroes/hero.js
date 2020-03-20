@@ -11,12 +11,12 @@ const Hero = ({ intl, content }) => (
         <div className={`non-clipped-area`}>
             <Container>
                 <Row>
-                    <Col xs={6}>
+                    <Col lg={6}>
                         <div className={`image`}>
                             <img src={bottle} alt={``} />
                         </div>
                     </Col>
-                    <Col xs={6}>
+                    <Col lg={6}>
                         <div className={`letters`}>
                             <img src={letters} alt={``} />
                         </div>

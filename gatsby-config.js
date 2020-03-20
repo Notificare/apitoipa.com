@@ -8,8 +8,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `From API to IPA powered by Notificare`,
-    description: `Helping brands creating moments of delight. Because every superhero needs a sidekick.`,
+    title: `From API to IPA - powered by Notificare`,
+    description: `Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!`,
     author: `@notificare`,
   },
   plugins: [
@@ -56,7 +56,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `From API to IPA powered by Notificare`,
+        name: `From API to IPA - powered by Notificare`,
         short_name: `API to IPA`,
         start_url: `/`,
         background_color: `#2B42F7`,

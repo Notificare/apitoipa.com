@@ -49,13 +49,13 @@ class NotificarePushManager extends React.Component {
       notificare: notificare
     });
 
-    // notificare.launchWithAutoOnBoarding({
-    //   text: this.props.intl.formatMessage({ id: "notificare.onBoarding.text" }),
-    //   cancelText: this.props.intl.formatMessage({ id: "notificare.onBoarding.cancelText" }),
-    //   acceptText: this.props.intl.formatMessage({ id: "notificare.onBoarding.acceptText" }),
-    //   retryAfterInterval: 24, //in hours, defaults to 24 hours if not present
-    //   showAfterDelay: 1 //in seconds, defaults to immediately if not present
-    // });
+    notificare.launchWithAutoOnBoarding({
+      text: this.props.intl.formatMessage({ id: "notificare.onBoarding.text" }),
+      cancelText: this.props.intl.formatMessage({ id: "notificare.onBoarding.cancelText" }),
+      acceptText: this.props.intl.formatMessage({ id: "notificare.onBoarding.acceptText" }),
+      retryAfterInterval: 24, //in hours, defaults to 24 hours if not present
+      showAfterDelay: 1 //in seconds, defaults to immediately if not present
+    });
 
     notificare.didUpdateBadge = (badge) => {
 

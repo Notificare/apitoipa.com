@@ -1,11 +1,11 @@
 {
   "title": "From API to IPA - powered by Notificare",
-  "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick.",
+  "description": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!",
   "author": "@notificare",
   "pages": {
     "home": {
       "title": "Welcome",
-      "description": "Helping brands creating moments of delight. Because every superhero needs a sidekick."
+      "description": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!"
     },
     "404": {
       "title": "These aren't the droids you're looking for",
