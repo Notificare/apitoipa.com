@@ -8,44 +8,23 @@
       "description": "Join us for a workshop. Get insights from our engineers on app development and in how to implement our APIs or SDKs. We end the session with a drink, cheers!"
     },
     "404": {
-      "title": "These aren't the droids you're looking for",
-      "description": "Probably the page you are looking for does not exist or was recently moved. If you think something is wrong please contact us.",
-      "image": "hero-example-image.jpg",
-      "button": {
-        "label": "Back to Safety",
-        "url": "/"
-      },
-      "cta": {
-        "title": "Want a free demo instead?",
-        "text": "Start testing all our features today",
-        "button": {
-          "label": "Get a free demo",
-          "url": "/demo"
-        }
-      }
+      "description": "Probably the page you are looking for does not exist or was recently moved. If you think something is wrong please contact us."
     }
   },
   "components": {
-    "mailingList": {
-      "title": "Join our newsletter",
-      "email": {
-        "label": "E-mail address",
-        "placeholder": "E-mail address",
-        "button": "Get Updates",
-        "error": "Please insert a valid email",
-        "serverError": "We could not subscribe you at this moment. Please try again later.",
-        "success": "Great! Thanks for joining Notificare, please check your inbox."
+    "dynamicForm": {
+      "alerts": {
+        "titles": {
+          "warning": "Warning",
+          "error": "Error",
+          "success": "Success"
+        },
+        "required": "This field is required",
+        "error": "There are errors in your fields. Please review your information and submit it again.",
+        "serverError": "We could not submit this form at this moment. Please try again later.",
+        "success": "Great! Thank you for your request. We will get back to you as soon as possible."
       }
-    },
-    "footer": {
-      "siteTitle": "Notificare"
     }
-  },
-  "shared": {
-    "readMore": "Read more",
-    "planPeriodicity": "/month",
-    "popular": "Popular",
-    "usersLimit": "Up to {users} users"
   },
   "notificare": {
     "onBoarding": {
