@@ -13,6 +13,7 @@ class DynamicForm extends React.Component {
         this.state = {
             title: null,
             description: null,
+            honeyPot: null,
             fields: [],
             button: null,
             errors: [],
@@ -59,6 +60,15 @@ class DynamicForm extends React.Component {
 
     }
 
+    handleHoneyPotChange = event => {
+        const target = event.target;
+        const value = target.value;
+
+        this.setState({
+            honeyPot: value
+        });
+    }
+
     handleSubmit = event => {
         event.preventDefault();
         event.stopPropagation();
@@ -97,32 +107,40 @@ class DynamicForm extends React.Component {
             });
         } else {
 
-            submitForm(this.props.type, data).then(() => {
+            if (!this.state.honeyPot) {
+                submitForm(this.props.type, data).then(() => {
 
-                this.setState({
-                    isProcessing: false
-                });
-
-                this.state.fields.forEach((f) => {
-                    f.value = "";
-                });
-
-                if (this.props.redirect) {
-                    window.location.href = this.props.redirect;
-                } else {
                     this.setState({
-                        showModal: true,
-                        finished: true
+                        isProcessing: false
                     });
-                }
 
-            }).catch(() => {
+                    this.state.fields.forEach((f) => {
+                        f.value = "";
+                    });
+
+                    if (this.props.redirect) {
+                        window.location.href = this.props.redirect;
+                    } else {
+                        this.setState({
+                            showModal: true,
+                            finished: true
+                        });
+                    }
+
+                }).catch(() => {
+                    this.setState({
+                        isProcessing: false,
+                        showModal: true,
+                        serverError: true
+                    });
+                });
+            } else {
                 this.setState({
                     isProcessing: false,
                     showModal: true,
                     serverError: true
                 });
-            });
+            }
         }
 
     }
@@ -231,6 +249,10 @@ class DynamicForm extends React.Component {
                         return null;
 
                     })}
+
+                    <div style={{position: "absolute", left: "-9999px", overflow: "hidden"}} aria-hidden="true">
+                        <input className="form-field" placeholder={this.props.intl.formatMessage({ id: "components.dynamicForm.alerts.titles.success" })} type="text" onChange={this.handleHoneyPotChange} />
+                    </div>
 
                     {this.state.button &&
                     <Button className={`form-button`} disabled={this.state.isProcessing} variant="secondary" type="submit" block>
