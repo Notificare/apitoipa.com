@@ -1,7 +1,7 @@
 import React from "react"
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl } from "gatsby-plugin-react-intl"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Hero from "../components/heroes/hero"
 import HeroData from "../content/home/hero.json"
 import WorkshopsData from "../content/home/workshops.json"
@@ -11,7 +11,7 @@ import Workshops from "../components/misc/workshops"
 
 const IndexPage = ({ intl }) => (
     <Layout>
-        <SEO lang={intl.locale}
+        <Seo lang={intl.locale}
              title={intl.formatMessage({ id: "pages.home.title" })}
              description={intl.formatMessage({ id: "pages.home.description" })}
         />

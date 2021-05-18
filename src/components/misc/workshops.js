@@ -1,6 +1,6 @@
 import React from "react"
 import { Col } from "react-bootstrap"
-import { injectIntl } from "gatsby-plugin-intl";
+import { injectIntl } from "gatsby-plugin-react-intl";
 import SimpleCard from "./simple-card"
 
 function Workshops ({ intl, content }) {

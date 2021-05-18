@@ -1,6 +1,6 @@
 import React from "react"
 import {Card, Button} from "react-bootstrap";
-import { injectIntl } from "gatsby-plugin-intl";
+import { injectIntl } from "gatsby-plugin-react-intl";
 
 function SimpleCard ({ intl, content }) {
   return(

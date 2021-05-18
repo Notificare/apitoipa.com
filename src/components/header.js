@@ -1,6 +1,6 @@
 import React from "react"
 import {Container, Badge} from 'react-bootstrap'
-import {injectIntl, Link} from "gatsby-plugin-intl"
+import {injectIntl, Link} from "gatsby-plugin-react-intl"
 import logo from "../images/notificare-logo.svg"
 import HeaderData from "../content/header.json"
 

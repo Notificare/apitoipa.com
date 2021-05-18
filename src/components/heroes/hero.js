@@ -1,6 +1,6 @@
 import React from "react"
 import { Row, Col, Container } from 'react-bootstrap'
-import { injectIntl } from "gatsby-plugin-intl"
+import { injectIntl } from "gatsby-plugin-react-intl"
 import bottle from "../../images/notificare-bottle.png"
 import letters from "../../images/from-api-to-ipa.png"
 import logo from "../../images/notificare-logo.svg"

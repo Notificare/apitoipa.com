@@ -26,8 +26,5 @@ You will need the following things properly installed on your computer.
 
 Make sure you have valid AWS credentials, either in your .aws/credentials or as environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 
-### Test Environment
-* `GATSBY_ACTIVE_ENV=test npm run deploy`
-
 ### Production Environment
 * `GATSBY_ACTIVE_ENV=production npm run deploy`

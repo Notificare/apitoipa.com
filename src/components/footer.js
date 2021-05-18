@@ -1,5 +1,5 @@
 import React from "react";
-import {injectIntl, Link} from "gatsby-plugin-intl";
+import {injectIntl, Link} from "gatsby-plugin-react-intl";
 import { Row, Col, Container } from 'react-bootstrap';
 import FooterData from "../content/footer.json";
 import ImageFluid from "./misc/image-fluid";

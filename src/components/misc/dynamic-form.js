@@ -1,5 +1,5 @@
 import React from "react";
-import { injectIntl, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl, FormattedMessage } from "gatsby-plugin-react-intl"
 import {Button, FormControl, Form, Modal, Spinner} from 'react-bootstrap';
 import { submitForm, loadForm } from "../../request";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
